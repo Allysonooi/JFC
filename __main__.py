@@ -99,16 +99,19 @@ def main():
                 print "Instructions: \nInput either Japanese String or English Meaning, leave the other empty.\n"
                 japString = raw_input("Input Japanese String: ")
                 engMeaning = raw_input("Input English Meaning: ")
-                check = search(japString, engMeaning)
-                print "\nSearch Results :"
-                if check == True :
-                    print japString
-                    print engMeaning
-                elif check == False :
-                    print "Nothing found."
-                else :
-                    print check[0]
-                    print check[1]
+                if japString == '' and engMeaning == '':
+                    print "Empty input. Do you even really want to search ?"
+                else:
+                    check = search(japString, engMeaning)
+                    print "\nSearch Results :"
+                    if check == True :
+                        print japString
+                        print engMeaning
+                    elif check == False :
+                        print "Nothing found."
+                    else :
+                        print check[0]
+                        print check[1]
                 print "=============== C O M P L E T E ======================"
 
                 cont = raw_input("Do you want to continue the SEARCH mode? [Y/N]\n")
@@ -152,19 +155,22 @@ def main():
                 print "Instructions: \nInput either Japanese String or English Meaning, leave the other empty.\n"
                 japString = raw_input("To edit Japanese String: ")
                 engMeaning = raw_input("To edit English Meaning: ")
-                check = search(japString, engMeaning)
-                print "\nSearch Results :"
-                if check == True :
-                    print japString
-                    print engMeaning
-                    edit_vocab(japString, engMeaning)
-                elif check == False :
-                    print "Does Not Exist!"
+                if japString == '' and engMeaning == '':
+                    print "Empty input. Do you even really want to search ?"
+                else:
+                    check = search(japString, engMeaning)
+                    print "\nSearch Results :"
+                    if check == True :
+                        print japString
+                        print engMeaning
+                        edit_vocab(japString, engMeaning)
+                    elif check == False :
+                        print "Does Not Exist!"
 
-                else :
-                    print check[0]
-                    print check[1]
-                    edit_vocab(check[0], check[1])
+                    else :
+                        print check[0]
+                        print check[1]
+                        edit_vocab(check[0], check[1])
 
                 print "\n=============== C O M P L E T E ======================"
 
@@ -184,19 +190,22 @@ def main():
                 print "Instructions: \nInput either Japanese String or English Meaning, leave the other empty.\n"
                 japString = raw_input("Input Japanese String: ")
                 engMeaning = raw_input("Input English Meaning: ")
-                check = search(japString, engMeaning)
-                print "\nSearch Results :"
-                if check == True :
-                    print japString
-                    print engMeaning
-                    del_vocab(japString, engMeaning)
-                elif check == False :
-                    print "Does Not Exist!"
+                if japString == '' and engMeaning == '':
+                    print "Empty input. Do you even really want to search ?"
+                else:
+                    check = search(japString, engMeaning)
+                    print "\nSearch Results :"
+                    if check == True :
+                        print japString
+                        print engMeaning
+                        del_vocab(japString, engMeaning)
+                    elif check == False :
+                        print "Does Not Exist!"
 
-                else :
-                    print check[0]
-                    print check[1]
-                    del_vocab(check[0], check[1])
+                    else :
+                        print check[0]
+                        print check[1]
+                        del_vocab(check[0], check[1])
 
                 print "\n=============== C O M P L E T E ======================"
 
