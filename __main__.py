@@ -124,7 +124,7 @@ def main():
         elif action == '3':
             print "\n================== A D D ==================="
             while True:
-                print "Instructions: \nInput both japString and engMeaning.\n"
+                print "Instructions: \nInput both Japanese String and English Meaning.\n"
                 japString = raw_input("Input Japanese String: ")
                 engMeaning = raw_input("Input English Meaning: ")
                 if japString == '' or engMeaning == '':
