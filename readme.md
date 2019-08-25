@@ -11,7 +11,7 @@ This simple python program essentially acts like a flash card that is made on be
 ## Usage for Mac OS
 * Open Terminal.
 * Run `cd <location>` e.g `cd Downloads` - To choose a location of where you would like to place the file.
-* Run `https://github.com/Allysonooi/JFC`
+* Run `git clone https://github.com/Allysonooi/JFC`
 * Run `cd JFC` to enter the folder
 * Run `python .` on Terminal.
 * Options for `READ/SEARCH/ADD/EDIT/DELETE/TEST/QUIT` modes will be shown.
