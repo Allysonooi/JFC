@@ -9,8 +9,10 @@ This simple python program essentially acts like a flash card that is made on be
   * Check that `python` environment variable has been added by running `python --version` on your terminal
 
 ## Usage for Mac OS
-* Open Terminal
-* To go to the location of project downloaded, enter on your terminal: e.g `cd Downloads/JFC`
+* Open Terminal.
+* Run `cd <location>` e.g `cd Downloads` - To choose a location of where you would like to place the file.
+* Run `https://github.com/Allysonooi/JFC`
+* Run `cd JFC` to enter the folder
 * Run `python .` on Terminal.
 * Options for `READ/SEARCH/ADD/EDIT/DELETE/TEST/QUIT` modes will be shown.
 * Input a number [1-7] to select the mode.
