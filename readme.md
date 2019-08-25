@@ -5,7 +5,7 @@ This simple python program essentially acts like a flash card that is made on be
 ## Prerequisites
 
 * Install `Python`
-  * If this is your first time downloading Python, follow the instructions on `https://docs.python-guide.org/starting/install3/osx/`
+  * If this is your first time downloading Python, follow the instructions on [this link](https://docs.python-guide.org/starting/install3/osx/)
   * Check that `python` environment variable has been added by running `python --version` on your terminal
 
 ## Usage for Mac OS
